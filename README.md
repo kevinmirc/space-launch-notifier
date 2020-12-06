@@ -1,4 +1,4 @@
-# Space Launch Notifier
+# Space Launch Notifier 🚀
 Receive a notification when Kennedy Space Center schedules an upcoming launch.
 
 ## Usage Examples
