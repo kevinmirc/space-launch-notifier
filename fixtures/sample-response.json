@@ -1,0 +1,74 @@
+[
+  {
+    "eventShortSummary": "SpaceX plans to launch a Falcon 9 rocket from Kennedy Space Center to deliver science investigations, supplies and equipment to the International Space Station.",
+    "location": "Kennedy Space Center LC-39A",
+    "eventCategoryType": {
+      "Guid": "c5a59f38-0044-45b3-a04b-bca1fc9f5344",
+      "IsGlobalNullId":false,
+      "IsNull":false
+    },
+    "eventImage": {
+      "Alt": "",
+      "Border":null,
+      "Class": "img-responsive",
+      "Height":0,
+      "HSpace":0,
+      "Src": "/-/media/DNC/KSCVC/Event-Images/Rocket-Launches/SpaceX-Falcon-9-Block-5-Bangabandhu-900x600.ashx",
+      "VSpace":0,
+      "Width":0,
+      "MediaId": "00000000-0000-0000-0000-000000000000",
+      "Title":null,
+      "Language":null
+    },
+    "title": "Rocket Launch: December 5, 2020 11:39 AM ET | SpaceX Falcon 9 CRS-21",
+    "start": "Dec 05, 2020  11:39 AM",
+    "end": "Jan 01, 0001  12:00 AM",
+    "eventTime": "",
+    "hideTime":false,
+    "isTBD":false,
+    "className": "violet",
+    "color": "#E5DEED",
+    "eventItemId": {
+      "Guid": "71aaed9d-6a36-43f5-9696-63ee0dace142",
+      "IsGlobalNullId":false,
+      "IsNull":false
+    },
+    "url": "/launches-and-events/events-calendar/2020/december/rocket-launch-spacex-falcon-9-crs-21"
+  },
+  {
+    "eventShortSummary": "United Launch Alliance will send the Boeing Starliner spacecraft aboard an Atlas V rocket in an uncrewed test flight. This launch is the next step for Boeing before they can launch humans from the Space Coast of Florida.",
+    "location": "Cape Canaveral Air Force Station SLC-41",
+    "eventCategoryType": {
+      "Guid": "c5a59f38-0044-45b3-a04b-bca1fc9f5344",
+      "IsGlobalNullId":false,
+      "IsNull":false
+    },
+    "eventImage": {
+      "Alt": "",
+      "Border":null,
+      "Class": "img-responsive",
+      "Height":0,
+      "HSpace":0,
+      "Src": "/-/media/DNC/KSCVC/Event-Images/Rocket-Launches/317188-45A_CST_HeroBlueImage_Crop_v3__092719_for-web.ashx",
+      "VSpace":0,
+      "Width":0,
+      "MediaId": "00000000-0000-0000-0000-000000000000",
+      "Title":null,
+      "Language":null
+    },
+    "title": "Rocket Launch: NET December 2020 | ULA Atlas V Boeing CST-100 Starliner Orbital Flight Test 2 (UNCREWED)",
+    "start": "Dec 03, 2020  06:36 AM",
+    "end": "Jan 01, 0001  12:00 AM",
+    "eventTime": "NET December 2020",
+    "hideTime":false,
+    "isTBD":true,
+    "className": "violet",
+    "color": "#E5DEED",
+    "eventItemId": {
+      "Guid": "544e4319-cee8-436b-af2e-9dc53b585b31",
+      "IsGlobalNullId":false,
+      "IsNull":false
+    },
+    "url": "/launches-and-events/events-calendar/2020/december/rocket-launch-commercial-uncrewed-boeing-2"
+  }
+]
