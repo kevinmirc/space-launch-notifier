@@ -1,5 +1,7 @@
-# Desktop notification on Mackbook Pro for the next launch within 3 days from now
+#!/usr/bin/ruby
 
+# Desktop notification on Mackbook Pro for the next launch within 3 days from now
+#
 require_relative '../domain/space_launch_notifier' 
 require_relative '../notifications/macbook_notification'
 

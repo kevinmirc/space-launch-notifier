@@ -6,8 +6,8 @@ You can use this service by requiring the main module and extending a specific n
 
 - Receive an email notification of the next launch.
   ```rb
-  require_relative '../domain/space_launch_notifier' 
-  require_relative '../notifications/email_notification'
+  require_relative './domain/space_launch_notifier' 
+  require_relative './notifications/email_notification'
 
   SpaceLaunchNotifier.extend(EmailNotification)
   SpaceLaunchNotifier.broadcast!(:next)
@@ -17,8 +17,8 @@ You can use this service by requiring the main module and extending a specific n
 - Receive a MacOS notification of the next launch happening within three days from now.
 
   ```rb
-  require_relative '../domain/space_launch_notifier' 
-  require_relative '../notifications/macbook_notification'
+  require_relative './domain/space_launch_notifier' 
+  require_relative './notifications/macbook_notification'
 
   SpaceLaunchNotifier.extend(MacbookNotification)
   SpaceLaunchNotifier.broadcast!(:next) do |upcoming_events|
@@ -71,7 +71,10 @@ module TwilioNotification
     end
   end
 end
+
+SpaceLaunchNotifier.extend(TwilioNotification)
+SpaceLaunchNotifier.broadcast!(:next)
 ```
 
 ### More Examples
-See [./scripts](https://github.com/kevinmirc/space-launch-notifier/tree/master/scripts) for more examples.
+See [./bin](https://github.com/kevinmirc/space-launch-notifier/tree/master/bin) for more examples.
